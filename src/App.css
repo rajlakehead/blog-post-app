@@ -1,0 +1,50 @@
+/* src/App.css */
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.post-list {
+  margin-top: 20px;
+}
+
+.post-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+
+form {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+button {
+  background-color: #282c34;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .App {
+    padding: 10px;
+  }
+}
